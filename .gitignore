@@ -3,3 +3,4 @@ target/*
 *.war
 *.class
 
+/target/
