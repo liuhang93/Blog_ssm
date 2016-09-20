@@ -6,16 +6,16 @@
 package com.liuhang.blog.entity;
 
 public class Blogger {
-  private int bloggerId;
+  private String id;
   private String userName;
   private String passWord;
 
-  public void setBloggerId(int bloggerId) {
-    this.bloggerId = bloggerId;
+  public void setId(String id) {
+    this.id = id;
   }
 
-  public int getBloggerId() {
-    return this.bloggerId;
+  public String getId() {
+    return this.id;
   }
 
   public void setUserName(String userName) {
