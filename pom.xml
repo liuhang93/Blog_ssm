@@ -63,6 +63,7 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>4.3.0.RELEASE</version>
 		</dependency>
+		<!-- 添加mysql连接 支持-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
