@@ -43,11 +43,11 @@
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
 				      	<li class="active"><a class="navbar-brand" href="#">博客首页</a></li>
-				        <li><a class="navbar-brand" href="#">关于博主</a></li>
+				        <li><a class="navbar-brand" href="#">关于本人</a></li>
 				        <li><a class="navbar-brand" href="#">我的相册</a></li>
-				        <li><a class="navbar-brand" href="#">关于我和倩倩</a></li>
-				        <li><a class="navbar-brand" href="#">程序人生</a></li>
-				        <li><a class="navbar-brand" href="#">CSDN</a></li>
+				        <li><a class="navbar-brand" href="#">我的项目</a></li>
+				        <li><a class="navbar-brand" href="#">感悟随笔</a></li>
+				        <li><a class="navbar-brand" href="#">github主页</a></li>
 				      </ul>
 				      <form class="navbar-form navbar-right" role="search">
 				        <div class="form-group">
@@ -69,10 +69,10 @@
 					博主信息
 				</div>
 				<div class="user_image">
-					<img src="./static/userImages/${blogger.imagename}"/>
+					<img src="./static/userImages/myhead.jpg"/>
 				</div>
-				<div class="nickName">${blogger.nickname }</div>
-				<div class="userSign">${blogger.sign }</div>
+				<div class="nickName">liuhang</div>
+				<div class="userSign">liuhang</div>
 			</div>	
 			
 			<div class="data_list">
