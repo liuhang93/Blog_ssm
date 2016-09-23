@@ -1,7 +1,7 @@
 /**
  * @author:liuhang
  * @date:2016年9月20日
- * @Description:TODO
+ * @Description:博主信息数据库接口
  */
 package com.liuhang.blog.dao;
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liuhang.blog.dao.LinkMapper">
+<resultMap type="com.liuhang.blog.entity.Link" id="LinkResult">
+		<id property="id" column="id"/>
+		<result property="linkName" column="linkname"/>
+		<result property="linkUrl" column="linkurl"/>
+		<result property="orderNum" column="orderNum"/>
+	</resultMap>
+	
+	<select id="getLinks" resultMap="LinkResult">
+		SELECT * FROM t_link ORDER BY orderNum
+	</select>
+</mapper>
