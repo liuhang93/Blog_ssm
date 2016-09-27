@@ -34,4 +34,12 @@ public class Link {
   public String getLinkUrl() {
     return this.linkUrl;
   }
+
+  public int getOrderNum() {
+    return this.orderNum;
+  }
+
+  public void setOrderNum(int orderNum) {
+    this.orderNum = orderNum;
+  }
 }
